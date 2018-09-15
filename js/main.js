@@ -5,4 +5,5 @@ $(document).ready(function(){
   };
   $('.dropdown-trigger').dropdown(options);
   $('.tabs').tabs();
+  $('#challenge-button').click(() => {window.location.href = "newChallenge.html";})
  });

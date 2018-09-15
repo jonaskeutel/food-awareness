@@ -138,3 +138,8 @@ h1{
 .scan-card {
   margin-top: 2em;
 }
+
+#challenge-button:hover {
+  background-color: rgba(200,200,200,0.6);
+  cursor: pointer;
+}
