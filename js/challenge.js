@@ -7,7 +7,7 @@ $(document).ready(function(){
         {
           label: "Points gained",
           backgroundColor: ["#3e95cd", "#8e5ea2","ffffff"],
-          data: [247,126,0]
+          data: [247,226,0]
         }
       ]
   };
