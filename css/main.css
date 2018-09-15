@@ -21,7 +21,7 @@ body{
 
 
 .container {
-  width: 80%; 
+  width: 80%;
 }
 
 #sidebar {
@@ -92,7 +92,7 @@ h1{
   left: 0;
 }
 
-.progress {
+.hidden .progress {
   display: none;
 }
 
