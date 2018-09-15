@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Raise Awareness</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/circle.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Raise Awareness</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="footprint.html">Footprint</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Fridge Competition</span>
+            <span>Reduce costs as much as you can!</span>
+            <br>
+            <i class="tiny material-icons">access_time</i>
+            <span>One Month</span>
+            <i class="tiny material-icons">card_giftcard</i>
+            <span>100 points</span>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="card">
+            <div class="card-content" style="text-align: center">
+              <img src="images/fridge.png" alt="Image of a Fridge" style="width: 60%;">
+            </div>
+          </div>
+        </div>
+
+        <div class="col s8">
+          <div class="card">
+            <div class="card-content">
+              <ol>
+                <li>Scan your fridge every wednesday for the next four weeks
+                  <i class="material-icons">kitchen</i>
+                </li>
+                <li>Lower emission costs
+                  <i class="material-icons">trending_down</i>
+              </li>
+                <li>Beat your friend
+                  <i class="material-icons">group</i>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <a class="waves-effect waves-light btn">Challenge a Friend</a>
+          <a class="waves-effect waves-light btn">Challenge a stranger</a>
+          <a class="waves-effect waves-light btn" onclick="invite()">Invite and challenge a new friend</a>
+          <div id="invite-friend" class="card" style="display:none;">
+            <div class="card-content">
+              <span>Hey Michael, <br>
+                    I bet you can’t beat me. But let’s have a try.
+                    We both try to lower our footprint and the one with the greater improvements wins.
+                    I throw in a restaurant visit as a reward. What do you think? </span>
+            </div>
+            <a class="waves-effect waves-light btn" href="footprint.html">Send and start challenge</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>

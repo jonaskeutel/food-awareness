@@ -5,4 +5,8 @@ $(document).ready(function(){
   };
   $('.dropdown-trigger').dropdown(options);
   $('.tabs').tabs();
- });
+});
+
+function invite() {
+  $('#invite-friend').fadeIn('slow');
+}
