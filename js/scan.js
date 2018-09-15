@@ -32,7 +32,11 @@ $(document).ready(function(){
  });
 
 function stopVideo() {
-  $('#video').hide();
-  var track = runningStream.getTracks()[0];  // if only one media track
-  track.stop();
+  try {
+    $('#video').hide();
+    var track = runningStream.getTracks()[0];  // if only one media track
+    track.stop();
+  } catch (e) {
+    console.log(e);
+  }
 }

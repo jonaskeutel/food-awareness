@@ -26,15 +26,15 @@
           <div class="card scan-card ">
             <div class="card-content">
               <span class="card-title">What items are in your fridge?</span>
-              <ul>
+              <ul class="item-list">
                 <li><a class='btn' href='#'>Beer</a></li>
                 <li id='firstItem'>
                   <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Cola</a>
                   <ul id='dropdown1' class='dropdown-content'>
-                    <li><a href="#!">Water</a></li>
-                    <li><a href="#!">Test</a></li>
-                    <li><a href="#!">Foo</a></li>
-                    <li><a href="#!">Bar</a></li>
+                    <li id="alternativeOne"><a href="#!">Water</a></li>
+                    <li id="alternativeTwo"><a href="#!">Orange Juice</a></li>
+                    <li id="alternativeThree"><a href="#!">Local Lemonade</a></li>
+                    <li id="alternativeFour"><a href="#!">Fanta</a></li>
                   </ul>
                 </li>
                 <li><a class='btn' href='#'>Spaghetti</a></li>
@@ -59,16 +59,19 @@
         <div class="col s6" id="footprint">
           <div class="card scan-card ">
             <div class="card-content">
-              <span class="card-title">Your current footprint</span>
+              <span class="card-title" id="footpring-title">Your current footprint</span>
               <div>
                 <div class="foot foot-top">
-                  <img src="images/foot_top_red.svg" alt="foot middle">
+                  <img id="top" src="images/foot_top_yellow.svg" alt="foot top">
+                  <img src="images/flash.png" alt="Electricity" id="electricity">
                 </div>
                 <div class="foot foot-middle">
-                  <img src="images/foot_middle_red.svg" alt="foot middle">
+                  <img id="middle" src="images/foot_middle_middle_orange.svg" alt="foot middle">
+                  <img src="images/water.svg" alt="Water consumption" id="water">
                 </div>
                 <div class="foot foot-bottom">
-                  <img src="images/foot_bottom_red.svg" alt="foot bottom">
+                  <img id="bottom" src="images/foot_bottom_light_orange.svg" alt="foot bottom">
+                  <img src="images/car.png" alt="Carbon dioxid" id="car">
                 </div>
               </div>
             </div>
@@ -95,5 +98,6 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/scan.js"></script>
+    <script type="text/javascript" src="js/footprint.js"></script>
   </body>
 </html>
