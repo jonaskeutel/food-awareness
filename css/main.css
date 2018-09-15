@@ -92,6 +92,12 @@ h1{
   left: 0;
 }
 
+#simulate-challenge-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .hidden .progress {
   display: none;
 }
