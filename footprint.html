@@ -9,7 +9,7 @@
     <link type="text/css" rel="stylesheet" href="css/circle.css"  media="screen,projection"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
-  <body>\
+  <body class="footprint-page">
     <nav>
       <div class="nav-wrapper">
         <a href="#" class="brand-logo">Raise Awareness</a>
@@ -20,24 +20,80 @@
         </ul>
       </div>
     </nav>
+    <div class="container">
+      <div class="row footprint">
+        <div class="col s6">
+          <div class="card scan-card ">
+            <div class="card-content">
+              <span class="card-title">What items are in your fridge?</span>
+              <ul>
+                <li><a class='btn' href='#'>Beer</a></li>
+                <li id='firstItem'>
+                  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Cola</a>
+                  <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!">Water</a></li>
+                    <li><a href="#!">Test</a></li>
+                    <li><a href="#!">Foo</a></li>
+                    <li><a href="#!">Bar</a></li>
+                  </ul>
+                </li>
+                <li><a class='btn' href='#'>Spaghetti</a></li>
+                <li><a class='btn' href='#'>Fanta</a></li>
+                <li><a class='btn' href='#'>Orange juice</a></li>
+                <li><a class='btn' href='#'>Lettuce</a></li>
+                <li><a class='btn' href='#'>Kangoroo</a></li>
+              </ul>
+            </div>
+            <div class="card-action">
+              <div class="scan-button">
+                <a class="">Start scan</a>
+                <!-- waves-effect waves-light btn btn-large -->
+              </div>
+              <div class="analyze-button">
+                <a class="">Analyze scanned items</a>
+              </div>
+            </div>
+          </div>
 
-    <div class="row">
-      <div class="footprint">
-        <div class="foot foot-top">
-          <img src="images/foot_top.svg" alt="foot middle">
         </div>
-        <div class="foot foot-middle">
-          <img src="images/foot_middle.svg" alt="foot middle">
+        <div class="col s6" id="footprint">
+          <div class="card scan-card ">
+            <div class="card-content">
+              <span class="card-title">Your current footprint</span>
+              <div>
+                <div class="foot foot-top">
+                  <img src="images/foot_top.svg" alt="foot middle">
+                </div>
+                <div class="foot foot-middle">
+                  <img src="images/foot_middle.svg" alt="foot middle">
+                </div>
+                <div class="foot foot-bottom">
+                  <img src="images/foot_bottom.svg" alt="foot bottom">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="foot foot-bottom">
-          <img src="images/foot_bottom.svg" alt="foot bottom">
+      </div>
+      <div class="hidden">
+        <center><video id="video" width="640" height="480" autoplay></video></center>
+        <div class="progress">
+          <div class="indeterminate"></div>
         </div>
       </div>
     </div>
 
+    <div id="simulate-scan-button">
+      <a class="waves-effect waves-light btn btn-large">Simulate scan</a>
+    </div>
+<!--
+    <div id="simulate-scan-button">
+      <a class="waves-effect waves-light btn">Simulate scan</a>
+    </div> -->
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/scan.js"></script>
   </body>
 </html>

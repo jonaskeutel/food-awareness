@@ -42,26 +42,42 @@ h1{
   width: 300px;
 }
 
-.foot-middle {
-  height: 102px;
+#footprint {
+  text-align: center;
+  display: none;
 }
 
-.foot-bottom {
-  height: 175px;
+.footprint ul {
+  list-style: none;
 }
 
+.footprint ul li {
+  padding: 3px 5px;
+  display: none;
 }
 
-   @keyframes colorchange
-   {
-     25%  {background: red;}
-     75%  {background: yellow;}
-     100% {background: green;}
-   }
+.scan-button {
+  text-align: center;
+}
+.analyze-button {
+  text-align: center;
+  display: none;
+}
 
-   @-webkit-keyframes colorchangea
-   {
-     25%  {background: red;}
-     75%  {background: yellow;}
-     100% {background: green;}
-   }
+/* .scan-button, .analyze-button {
+  margin-top: 3em;
+} */
+
+#simulate-scan-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.progress {
+  display: none;
+}
+
+.scan-card {
+  margin-top: 2em;
+}
