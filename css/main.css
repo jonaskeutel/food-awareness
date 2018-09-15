@@ -143,3 +143,16 @@ h1{
   background-color: rgba(200,200,200,0.6);
   cursor: pointer;
 }
+
+textarea.materialize-textarea {
+  min-height: 10rem;
+}
+
+#send-button {
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}

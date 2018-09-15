@@ -23,9 +23,9 @@
             <span class="card-title">Fridge Competition</span>
             <span>Reduce costs as much as you can!</span>
             <br>
-            <i class="tiny material-icons">access_time</i>
+            <i class="tiny material-icons" style="vertical-align: text-top;">access_time</i>
             <span>One Month</span>
-            <i class="tiny material-icons">card_giftcard</i>
+            <i class="tiny material-icons" style="vertical-align: text-top;">card_giftcard</i>
             <span>100 points</span>
           </div>
         </div>
@@ -37,33 +37,48 @@
           </div>
         </div>
 
-        <div class="col s8">
-          <div class="card">
-            <div class="card-content">
-              <ol>
-                <li>Scan all items in your fridge every Wednesday for the next four weeks.
-                  <i class="material-icons">kitchen</i>
+        <div class="col s8" style="padding-left: 40px;">
+          <div class="row">
+            <div class="card">
+              <div class="card-content">
+                <ol>
+                  <li>Scan all items in your fridge every Wednesday for the next four weeks.
+                    <i class="material-icons" style="vertical-align: middle;">kitchen</i>
+                  </li>
+                  <li>Lower emission costs
+                    <i class="material-icons" style="vertical-align: middle;">trending_down</i>
                 </li>
-                <li>Lower emission costs
-                  <i class="material-icons">trending_down</i>
-              </li>
-                <li>Beat your friend
-                  <i class="material-icons">group</i>
-                </li>
-              </ol>
+                  <li>Beat your friend
+                    <i class="material-icons" style="vertical-align: middle;">group</i>
+                  </li>
+                </ol>
+              </div>
             </div>
           </div>
-          <a class="waves-effect waves-light btn">Challenge a Friend</a>
-          <a class="waves-effect waves-light btn">Challenge a stranger</a>
-          <a class="waves-effect waves-light btn" onclick="invite()">Invite and challenge a new friend</a>
-          <div id="invite-friend" class="card" style="display:none;">
-            <div class="card-content">
-              <span>Hey Michael, <br>
-                    I bet you can’t beat me. But let’s have a try.
-                    We both try to lower our footprint and the one with the greater improvements wins.
-                    I throw in a restaurant visit as a reward. What do you think? </span>
+
+          <div class="row flex">
+            <a class="waves-effect waves-light btn">Challenge a Friend</a>
+            <a class="waves-effect waves-light btn">Challenge a stranger</a>
+            <a class="waves-effect waves-light btn" onclick="invite()">Invite and challenge a new friend</a>
+          </div>
+
+          <div class="row">
+            <div id="invite-friend" class="card" style="display:none;">
+              <div class="card-content">
+                <div class="input-field col s12">
+                  <textarea class="materialize-textarea active" id="message_text">
+  Hey there,
+
+  I bet you can’t beat me in being green. But let’s have a try. 
+  We both try to lower our footprint and the one with the greater improvements wins. I throw in a restaurant visit as a reward. 
+
+  What do you think?</textarea>
+                  <label for="message_text">Message</label>
+
+                </div>
+                <a id="send-button" class="waves-effect waves-light btn" href="footprint.html">Send and start challenge</a>
+              </div>
             </div>
-            <a class="waves-effect waves-light btn" href="footprint.html">Send and start challenge</a>
           </div>
         </div>
       </div>
