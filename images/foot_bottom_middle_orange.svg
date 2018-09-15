@@ -15,7 +15,7 @@
    id="svg4937"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="foot_bottom.svg">
+   sodipodi:docname="foot_bottom_middle_orange.svg">
   <defs
      id="defs4939" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="469.79751"
-     inkscape:cy="341.87266"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="394.25957"
+     inkscape:cy="578.73048"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -62,7 +62,7 @@
        transform="translate(-1355.8087,8.2508265)"
        style="fill:#eebf28;fill-opacity:1;stroke:none" />
     <path
-       style="fill:#cc3939;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff9335;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -1049.6256,448.47843 c -16.5321,19.71655 -41.5071,48.70553 -53.5705,70.05559 -56.3297,100.98169 -4.6963,249.19067 131.5008,244.17397 212.51596,-16.2414 132.70967,-187.34428 185.95806,-313.565 z"
        id="path4217"
        inkscape:connector-curvature="0" />

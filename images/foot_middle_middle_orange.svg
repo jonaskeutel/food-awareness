@@ -15,7 +15,7 @@
    id="svg4937"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="foot_middle.svg">
+   sodipodi:docname="foot_middle_middle_orange.svg">
   <defs
      id="defs4939" />
   <sodipodi:namedview
@@ -26,10 +26,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="682.65002"
+     inkscape:cx="511.42916"
      inkscape:cy="190.90054"
      inkscape:document-units="px"
-     inkscape:current-layer="g4221"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -62,9 +62,18 @@
        transform="translate(-1355.8087,8.2508265)"
        style="fill:#eebf28;fill-opacity:1;stroke:none" />
     <path
-       style="fill:#3fee28;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff9335;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -1090.9542,120.00318 c 50.7151,46.83867 105.74624,96.05214 106.46044,175.10248 2.338,71.72285 -28.15074,108.78915 -65.01174,152.75742 l 263.94146,0.46095 c 2.5269,-5.87652 5.7715,-12.56044 8.9274,-18.21824 76.4493,-127.91698 104.663,-229.75352 101.4352,-309.78313 z"
        id="path4201"
        inkscape:connector-curvature="0" />
+    <g
+       transform="translate(555.58396,-719.98619)"
+       id="layer1-6"
+       inkscape:label="Layer 1">
+      <g
+         style="fill:#eebf28;fill-opacity:1;stroke:none"
+         transform="translate(-1355.8087,8.2508265)"
+         id="g4221-2" />
+    </g>
   </g>
 </svg>
