@@ -38,42 +38,16 @@ h1{
 .clearfix:after {clear: both;}
 .clearfix {*zoom: 1;}
 
-.foot {
+.foot img {
   width: 300px;
-  text-align: left;
-  height: 200px;
-}
-
-.foot-top {
-  background-color: green;
-  /* -webkit-mask: url(./../images/foot_top.svg) no-repeat center; */
-  /* height: 576px */
-  /* mask: url(./../images/foot_top.svg) no-repeat center; */
 }
 
 .foot-middle {
-  background-color: green;
-  /* -webkit-mask: url(./../images/foot_middle.svg) no-repeat center; */
-  /* width: 352px; */
-  /* mask: url(./../images/foot_top.svg) no-repeat center; */
+  height: 102px;
 }
 
 .foot-bottom {
-  background-color: green;
-  /* -webkit-mask: url(./../images/foot_bottom.svg) no-repeat center; */
-  /* width: 343px; */
-  /* height: 343px; */
-  /* mask: url(./../images/foot_top.svg) no-repeat center; */
-}
-
-.foot-top {
-  transition: background-color 0.5s ease;
-     /* animation: colorchange 1s; */
-     /* -webkit-animation: colorchange 1s; */
- }
-
-.foot-top:hover {
-  background-color: green;
+  height: 175px;
 }
 
 }
