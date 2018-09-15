@@ -26,9 +26,9 @@ body{
 
 #sidebar {
   position: absolute;
-  right: 20px;
-  top: 80px;
-  height: calc(100vh - 80px);
+  right: 0px;
+  top: 57px;
+  height: 100%;
   width: 25%;
 }
 
